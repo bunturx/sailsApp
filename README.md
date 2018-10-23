@@ -1,2 +1,3 @@
 # sailsApp
-prueba del uso de Sails Framework
+
+a [Sails](http://sailsjs.org) application
