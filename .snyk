@@ -16,3 +16,27 @@ patch:
         patched: '2023-08-04T21:27:27.367Z'
         id: 'npm:lodash:20180130'
         path: sails > machinepack-process > machinepack-json > machine > lodash
+    - sails-disk > machinepack-fs > machine > lodash:
+        patched: '2023-08-04T21:37:37.586Z'
+        id: 'npm:lodash:20180130'
+        path: sails-disk > machinepack-fs > machine > lodash
+    - sails-disk > machinepack-fs > machinepack-strings > lodash:
+        patched: '2023-08-04T21:37:37.586Z'
+        id: 'npm:lodash:20180130'
+        path: sails-disk > machinepack-fs > machinepack-strings > lodash
+    - sails-disk > machinepack-fs > machinepack-util > lodash:
+        patched: '2023-08-04T21:37:37.586Z'
+        id: 'npm:lodash:20180130'
+        path: sails-disk > machinepack-fs > machinepack-util > lodash
+    - sails-disk > machinepack-fs > machinepack-json > machine > lodash:
+        patched: '2023-08-04T21:37:37.586Z'
+        id: 'npm:lodash:20180130'
+        path: sails-disk > machinepack-fs > machinepack-json > machine > lodash
+    - sails-disk > machinepack-fs > machinepack-strings > machine > lodash:
+        patched: '2023-08-04T21:37:37.586Z'
+        id: 'npm:lodash:20180130'
+        path: sails-disk > machinepack-fs > machinepack-strings > machine > lodash
+    - sails-disk > machinepack-fs > machinepack-util > machine > lodash:
+        patched: '2023-08-04T21:37:37.586Z'
+        id: 'npm:lodash:20180130'
+        path: sails-disk > machinepack-fs > machinepack-util > machine > lodash
