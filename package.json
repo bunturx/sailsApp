@@ -20,12 +20,15 @@
     "grunt-sync": "0.5.2",
     "include-all": "^1.0.0",
     "rc": "1.0.1",
-    "sails": "~1.0.0",
-    "sails-disk": "~0.10.9"
+    "sails": "~1.5.4",
+    "sails-disk": "~0.10.9",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "debug": "node debug app.js",
-    "start": "node app.js"
+    "start": "node app.js",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "main": "app.js",
   "repository": {
@@ -33,5 +36,6 @@
     "url": "git://github.com/bunturx/sailsApp.git"
   },
   "author": "bunturx",
-  "license": ""
+  "license": "",
+  "snyk": true
 }
